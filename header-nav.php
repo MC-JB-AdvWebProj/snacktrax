@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
-	<head>		
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	
-	
+	<head>
+		<title>Snack Trax</title>		
+		
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-		<!-- Header -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="assets/css/main.css" />
+
+<!-- Header -->
 			<header id="header">
 				<nav class="left">
 					<a href="#menu"><span>Menu</span></a>
@@ -32,10 +39,4 @@
 				</ul>
 			</nav>
 	
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 </head>
