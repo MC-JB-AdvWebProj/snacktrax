@@ -21,15 +21,12 @@
         <footer id="footer">
 				<div class="inner">
 					<ul class="actions">
-						<li> <a href="about-us.php">About Us</a></li>
-						<li> <a href="about-us.php">Contact</a></li>
+						<li> <li><span class="icon fa-envelope"></span><a href="mailto:contact@snacktrax.co">Contact</a></li>
 						<li> <a href="about-us.php">Terms and Conditions</a></li>
-						<li><span class="icon fa-envelope"></span> <a href="#">information@untitled.tld</a></li>
-						<li><span class="icon fa-map-marker"></span> 123 Somewhere Road, Nashville, TN 00000</li>
 					</ul>
 				</div>
 				<div class="copyright">
-					&copy; Untitled. Design <a href="https://templated.co">TEMPLATED</a>. Images <a href="https://unsplash.com">Unsplash</a>.
+					&copy; Snack Trax Design <a href="https://templated.co">TEMPLATED</a>. Images <a href="https://unsplash.com">Unsplash</a>.
 				</div>
 			</footer>
 
