@@ -2,8 +2,6 @@
 include 'header.php';
 ?>
 
-$page-title="Home";
-
 <?php
 include 'nav.php';
 ?>
