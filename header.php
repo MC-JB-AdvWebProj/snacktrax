@@ -10,16 +10,17 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="css/main.css" />
+	
+			<!-- Scripts -->
+				<script src="js/jquery.min.js"></script>
+				<script src="js/jquery.scrolly.min.js"></script>
+				<script src="js/skel.min.js"></script>
+				<script src="js/util.js"></script>
+				<script src="js/main.js"></script>
 		</head>	
-	<!-- Scripts -->
-			<script src="js/jquery.min.js"></script>
-			<script src="js/jquery.scrolly.min.js"></script>
-			<script src="js/skel.min.js"></script>
-			<script src="js/util.js"></script>
-			<script src="js/main.js"></script>
-  
-<body>
-	<!-- Header -->
+	
+		<body>
+			<!-- Header -->
 			<header id="header">
 				<nav class="left">
 					<a href="#menu"><span>Menu</span></a>
@@ -29,8 +30,8 @@
 					<a href="#" class="button alt">Log in</a>
 				</nav>
 			</header>
-
-	<!-- Menu -->
+	
+			<!-- Menu -->
 			<nav id="menu">
 				<ul class="links">
                     <li><a href="index.php">Home</a></li>
@@ -42,5 +43,5 @@
 				<ul class="actions vertical">
 					<li><a href="#" class="button fit">Login</a></li>
 				</ul>
-            </nav>
-	
+			</nav>
+			
