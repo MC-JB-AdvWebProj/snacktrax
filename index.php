@@ -32,7 +32,7 @@ include 'nav.php';
 						</div>
 					</div>
 					<div class="flex-item image fit round">
-						<img src="images/banner.jpg" alt="" />
+						<img src="images/banner.jpg" alt="" width="200" height="300" />
 					</div>
 					<div class="flex-item right">
 						<div>
@@ -58,12 +58,6 @@ include 'nav.php';
 					</figure>
 				</div>
 			</section>
-		<!-- Three -->
-			<section id="three" class="wrapper">
-				<div class="content">
-				<h4>Benefits of Snack Tracking</h4>
-					<p><span class="image left"><img src="images/banner.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor sit amet dolor consequat.</p>
-</div>
 </div>
 
 <?php

@@ -12,41 +12,36 @@ include 'nav.php';
 <h3>Sign Up!</h3>
 
 <form method="post" action="#">
-    <div class="row uniform">
-        <div class="6u 12u$(xsmall)">
-            <input type="text" name="fname" id="fname" value="" placeholder="First Name" />
-        </div>
-        <div class="6u 12u$(xsmall)">
-            <input type="text" name="lname" id="lname" value="" placeholder="Last Name" />
-        </div>
-        <div class="6u$ 12u$(xsmall)">
-            <input type="email" name="email" id="email" value="" placeholder="Email" />
-        </div>
-        <div class="6u 12u$(xsmall)">
-            <input type="text" name="password" id="password" value="" placeholder="Password" />
-        </div>
-        <!-- Break -->
-        <div class="6u 12u$(xsmall)">
-            <div class="select-wrapper">
-                <select name="category" id="category">
-                    <option value="">- Species -</option>
-                    <option value="1">Human</option>
-                    <option value="1">Cat</option>
-                    <option value="1">Dog</option>
-                 </select>
-            </div>
-        </div>
-        <div class="6u$ 12u$(xsmall)">
-            <input type="text" name="name" id="name" value="" placeholder="Child or Pet's Name" />
-        </div>
-        <!-- Break -->
-        <div class="12u$">
-            <ul class="actions">
-                <li><input type="submit" value="Submit" /></li>
-                <li><input type="reset" value="Reset" class="alt" /></li>
-            </ul>
-        </div>
+<div class="row uniform">
+  <h1>Create Your Snack Trax Membership Account</h1>
+  <h2>By creating a membership with us, you will be able to utilize all of the Snack Trax benefits for tracking each and every meal time!</h2>
+  
+  <label for="fname"><b>First Name</b></label>
+    <input type="text" placeholder="Enter First Name" name="fname" required>
+
+    <label for="lname"><b>Last Name</b></label>
+    <input type="text" placeholder="Enter Last Name" name="lname" required>
+
+  <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    
+    <label for="psw"><b>Password</b></label>
+    <input type="text" placeholder="Enter Password" name="psw" required>
+    
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="text" placeholder="Repeat Password" name="psw-repeat" required>
+    
+    <label>
+       <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Conditions</a>.</p>
+    
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
     </div>
+  </div>
 </form>
 
 

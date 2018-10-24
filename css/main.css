@@ -2920,7 +2920,7 @@
 
 	#banner {
 		padding: 14em 0 12em 0;
-		background-image: url(../../snacktrax/images/banner.jpg);
+		background-image: url(../../snacktrax/images/BabyandDogSnackTime.jpg);
 		background-size: cover;
 		background-position: center top;
 		background-repeat: no-repeat;
@@ -2945,6 +2945,8 @@
 
 		#banner p {
 			font-size: 1.25em;
+			color: #ffffff;
+			font-weight: bold;
 			margin-bottom: 1.75em;
 		}
 
