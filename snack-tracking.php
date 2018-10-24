@@ -13,6 +13,9 @@ include 'nav.php';
 
 <form method="post" action="#">
     <div class="row uniform">
+    <div class="6u 12u$(xsmall)">
+            <input type="text" name="name" id="name" value="" placeholder="Name" />
+        </div>
         <div class="6u 12u$(xsmall)">
             <input type="date" name="date" id="date" value="" placeholder="Date" />
         </div>
