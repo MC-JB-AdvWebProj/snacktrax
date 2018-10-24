@@ -6,8 +6,9 @@ include 'header.php';
 include 'nav.php';
 ?>
 
+
+
 <body>
-<p></p>
 <!-- Form -->
 <h3>Login</h3>
 
