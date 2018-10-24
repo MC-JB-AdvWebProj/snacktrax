@@ -5,7 +5,17 @@ include 'header.php';
 <?php
 include 'nav.php';
 ?>
+<!--Welcome Back User Message-->
+[html]
+< ?php global $user_ID; if( $user_ID ) : ?>
+< ?php if( current_user_can(‘level_0’) ) : ?>
 
+Welcome back < ?php global $current_user; get_currentuserinfo(); echo ($current_user->user_login); ?>
+< ?php else : ?>
+< ?php endif; ?>
+< ?php endif; ?>
+[/html]
+    
 <body>
 <p></p>
 <!-- Form -->
