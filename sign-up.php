@@ -6,6 +6,10 @@ include 'header.php';
 include 'nav.php';
 ?>
 
+<?php
+include '../api/user/signup.php';
+?>
+
 <body>
 
 
