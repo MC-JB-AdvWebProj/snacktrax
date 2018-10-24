@@ -6,13 +6,7 @@ include 'header.php';
 include 'nav.php';
 ?>
 
-<?php
-include '../api/user/signup.php';
-?>
-
 <body>
-
-
 
 <div class="content">
   <h1>Create Your Snack Trax Membership Account</h1>
@@ -20,6 +14,11 @@ include '../api/user/signup.php';
 </div>
 
 <!--Form -->
+
+<?php
+include '../api/user/signup.php';
+?> 
+
 <form method="post" action="#">
 <div class="row uniform">  
   <label for="fname"><b>First Name</b></label>

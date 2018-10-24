@@ -6,11 +6,14 @@ include 'header.php';
 include 'nav.php';
 ?>
 
-
-
 <body>
 <!-- Form -->
 <h3>Login</h3>
+
+<?php
+include '../api/user/login.php';
+?>
+
 
 <form method="post" action="#">
     <div class="row uniform">
@@ -23,7 +26,7 @@ include 'nav.php';
         <!-- Break -->
         <div class="12u$">
             <ul class="actions">
-                <li><input type="submit" value="Submit" /></li>
+                <li><input type="submit" value="Submit" onclick="validate()"/></li>
                 <li><input type="reset" value="Reset" class="alt" /></li>
             </ul>
         </div>
