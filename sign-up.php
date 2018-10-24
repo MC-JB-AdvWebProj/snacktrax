@@ -5,6 +5,7 @@ include 'header.php';
 <?php
 include 'nav.php';
 ?>
+
 <body>
 <!--Form -->
 <form method="post" action="#">
@@ -32,11 +33,11 @@ include 'nav.php';
       <button type="submit" class="signupbtn">Sign Up</button>
     </div>
   </div>
-</form>
-
 
 <?php
 include 'footer.php';
 ?>
+  
 </body>
 </html>
+

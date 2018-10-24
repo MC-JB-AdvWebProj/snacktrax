@@ -1,29 +1,46 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Intensify by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
 <html>
 	<head>
-		<title>Snack Trax</title>		
+		<title>Snack Trax</title>	
 		<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" href="css/main.css" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<!-- Header -->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/main.css" />
+	
+			<!-- Scripts -->
+				<script src="js/jquery.min.js"></script>
+				<script src="js/jquery.scrolly.min.js"></script>
+				<script src="js/skel.min.js"></script>
+				<script src="js/util.js"></script>
+				<script src="js/main.js"></script>
+		</head>	
+	
+		<body>
+			<!-- Header -->
 			<header id="header">
 				<nav class="left">
 					<a href="#menu"><span>Menu</span></a>
 				</nav>
-				<a href="index.html" class="logo">Snack Trax</a>
+				<a href="index.php" class="logo">Snack Trax</a>
 				<nav class="right">
-					<a href="#" class="button alt">Log in</a>
+					<a href="login.php" class="button alt">Log in</a>
 				</nav>
 			</header>
-
-<!-- Scripts -->
-			<script src="js/jquery.min.js"></script>
-			<script src="js/jquery.scrolly.min.js"></script>
-			<script src="js/skel.min.js"></script>
-			<script src="js/util.js"></script>
-			<script src="js/main.js"></script>
-
+	
+			<!-- Menu -->
+			<nav id="menu">
+				<ul class="links">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about-us.php">About Us</a></li>
+                    <li><a href="blog.php">Blog</a></li>
+                    <li><a href="sign-up.php">Sign Up!</a></li>
+				</ul>
+				<ul class="actions vertical">
+					<li><a href="login.php" class="button fit">Login</a></li>
+				</ul>
+			</nav>
+			
