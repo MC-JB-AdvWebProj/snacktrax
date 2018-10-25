@@ -5,6 +5,7 @@ var username = document.getElementById("email").value;
 var password = document.getElementById("password").value;
 if ( username == "Formget" && password == "formget#123"){
 alert ("Login successful");
+
 window.location = "snack-tracking.php"; // Redirecting to other page.
 return false;
 }
