@@ -2,10 +2,10 @@
 class Database{
  
     // specify your own database credentials
-    private $host = "localhost";
-    private $db_name = "snack_trax";
-    private $username = "root";
-    private $password = "root";
+    private $host = "localhost:3306";
+    private $db_name = "snacktra_database";
+    private $username = "snacktra_jbell";
+    private $password = "L3sley18!";
     public $conn;
  
     // get the database connection
