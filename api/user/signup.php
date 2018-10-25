@@ -19,7 +19,7 @@ $user->created = date('Y-m-d H:i:s');
 if($user->signup()){
     $user_arr=array(
         "status" => true,
-        "message" => "Successfully Signup!",
+        "message" => "Successful Signup!",
         "email" => $user->email
     );
 }
