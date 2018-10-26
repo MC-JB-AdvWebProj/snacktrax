@@ -17,7 +17,7 @@ include 'nav.php';
     margin: auto;
 }
 
-h1 {
+h2 {
     font-size: 50px;
     word-break: break-all;
 }
