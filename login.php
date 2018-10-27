@@ -1,3 +1,6 @@
+<link href="css/main.css" rel="stylesheet" type="text/css">
+
+
 <?php
 include 'header.php';
 ?>
