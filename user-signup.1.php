@@ -6,9 +6,9 @@ include_once 'db_connect.php';
 include_once 'user.php';
  
 $database = new Database();
-$dbname = $database->getConnection();
+$db = $database->getConnection();
  
-$user = new User($dbname);
+$user = new User($db);
  
 // set user property values
 $user->fname = $_POST['fname'];
@@ -19,12 +19,36 @@ $user->pswrepeat = $_POST['pswrepeat'];
 
  
 // create the user
+mysql_select_db("snack_trax", $con);
+
+ $sql="INSERT INTO users (fname, lname, email, password, pswrepeat)
+
+VALUES
+
+('$_POST[fname]','$_POST[lname]','$_POST[email]','$_POST[password]','$_POST[pswrepeat]')";
+
+if (!mysql_query($sql,$con))
+
+  {
+
+  die('Error: ' . mysql_error());
+
+  }
+
+echo "Account created. Your username is your email address. Enjoy.";
+
+ 
+
+mysql_close($con)
+?>
+
+
+
 if($user->signup()){
     $user_arr=array(
         "status" => true,
         "message" => "Successful Signup!",
         "email" => $user->email
-        "password" => $password->password
     );
 }
 else{

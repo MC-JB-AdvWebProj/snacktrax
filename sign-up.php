@@ -6,9 +6,9 @@ include 'header.php';
 include 'nav.php';
 ?>
 
-<?php
-include 'db_connect.php';
-?>
+
+
+
 
 <body>
 
@@ -18,8 +18,7 @@ include 'db_connect.php';
 </div>
 
 <!--Form -->
-
-<form method="post" action="#">
+<form class="sign-up.php" action="../snacktrax/api/user/signup.php" method="post" id="sign-up-form">
 <div class="row uniform">  
   <label for="fname"><b>First Name</b></label>
     <input type="text" placeholder="Enter First Name" name="fname" required>
@@ -41,7 +40,7 @@ include 'db_connect.php';
   </div>
 
     <div class="clearfix">
-            <button type="submit" class="signupbtn">Sign Up</button>
+            <button type="submit" class="signupbtn" value="signup">Sign Up</button>
             <button type="button" class="cancelbtn">Cancel</button>
 
     </div>

@@ -1,5 +1,6 @@
 <?php
 $servername = "localhost";
+$dbname = "snack_trax";
 $username = "root";
 $password = "@L3sley2018!";
 

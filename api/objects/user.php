@@ -1,8 +1,8 @@
 <?php
 class User{
  
-    // get database connection
-    include_once 'db_connect.php';
+    // database connection and table name
+    private $conn;
     private $table_name = "users";
  
     // object properties
@@ -11,11 +11,10 @@ class User{
     public $email;
     public $password;
     public $pswrepeat;
-   
  
     // constructor with $db as database connection
-    public function __construct($dbname){
-        $this->conn = $dbname;
+    public function __construct($db){
+        $this->conn = $db;
     }
     // signup user
     function signup(){
