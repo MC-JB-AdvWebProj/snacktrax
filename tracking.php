@@ -22,9 +22,9 @@ if (!$conn) {
       die("Connection failed: " . mysqli_connect_error());
 }
  
-$sql = "INSERT INTO users (fname, lname, email, passwords) VALUES ('$_POST[fname]','$_POST[lname]','$_POST[email]','$_POST[passwords]')";
+$sql = "INSERT INTO tracking (name, date, time, food, amount) VALUES ('$_POST[name]','$_POST[date]','$_POST[time]','$_POST[food]','$_POST[amount]')";
 if (mysqli_query($conn, $sql)) {
-    echo "<script>window.location = 'login.php'</script>";
+    echo "<script>window.location = 'snack-tracking.php'</script>";
 } else {
       echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

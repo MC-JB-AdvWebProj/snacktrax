@@ -17,7 +17,6 @@
 				<script src="js/skel.min.js"></script>
 				<script src="js/util.js"></script>
 				<script src="js/main.js"></script>
-				<script src="js/login.js"></script>
 				<script src="js/list.min.js"></script>
 </head>	
 	
