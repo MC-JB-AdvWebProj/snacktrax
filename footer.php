@@ -22,7 +22,7 @@
 				<div class="inner">
 					<ul class="actions">
 						<li> <li><span class="icon fa-envelope"></span><a href="mailto:contact@snacktrax.co">Contact</a></li>
-						<li> <a href="about-us.php">Terms and Conditions</a></li>
+						<li> <a href="about-us.php">About Us</a></li>
 					</ul>
 				</div>
 				<div class="copyright">

@@ -17,6 +17,7 @@
 				<script src="js/skel.min.js"></script>
 				<script src="js/util.js"></script>
 				<script src="js/main.js"></script>
+				<script src="js/login.js"></script>
 				<script src="js/list.min.js"></script>
 </head>	
 	
@@ -40,6 +41,7 @@
                     <li><a href="about-us.php">About Us</a></li>
                     <li><a href="blog.php">Blog</a></li>
                     <li><a href="sign-up.php">Sign Up!</a></li>
+					<li><a href="snack-tracking.php">Snack Tracking</a></li>
 				</ul>
 				<ul class="actions vertical">
 					<li><a href="login.php" class="button fit">Login</a></li>
