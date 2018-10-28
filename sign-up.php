@@ -6,9 +6,9 @@ include 'header.php';
 include 'nav.php';
 ?>
 
-<?php
-include 'db_connect.php';
-?>
+
+
+
 
 <body>
 
@@ -18,8 +18,7 @@ include 'db_connect.php';
 </div>
 
 <!--Form -->
-
-<form method="post" action="#">
+<form action="insert.php" method="post" id="sign-up-form">
 <div class="row uniform">  
   <label for="fname"><b>First Name</b></label>
     <input type="text" placeholder="Enter First Name" name="fname" required>
@@ -31,17 +30,14 @@ include 'db_connect.php';
     <input type="text" placeholder="Enter Email" name="email" required>
     
     <label for="password"><b>Password</b></label>
-    <input type="text" placeholder="Enter Password" name="password" required>
-    
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="text" placeholder="Repeat Password" name="psw-repeat" required>
-    
+    <input type="text" placeholder="Enter Password" name="passwords" required>
+     
   <div class="content">  
   <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Conditions</a>.</p>
   </div>
 
     <div class="clearfix">
-            <button type="submit" class="signupbtn">Sign Up</button>
+            <button type="submit" class="signupbtn" value="signup">Sign Up</button>
             <button type="button" class="cancelbtn">Cancel</button>
 
     </div>

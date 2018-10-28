@@ -5,24 +5,15 @@ include 'header.php';
 <?php
 include 'nav.php';
 ?>
-<!--Welcome Back User Message-->
-[html]
-< ?php global $user_ID; if( $user_ID ) : ?>
-< ?php if( current_user_can(‘level_0’) ) : ?>
 
-Welcome back < ?php global $current_user; get_currentuserinfo(); echo ($current_user->user_login); ?>
-< ?php else : ?>
-< ?php endif; ?>
-< ?php endif; ?>
-[/html]
-    
 <body>
-<p></p>
+
 <!-- Form -->
 <h3>Snack Tracking</h3>
 
-<form method="post" action="#">
+<form method="post" action="tracking.php">
     <div class="row uniform">
+    
     <div class="6u 12u$(xsmall)">
             <input type="text" name="name" id="name" value="" placeholder="Name" />
         </div>
