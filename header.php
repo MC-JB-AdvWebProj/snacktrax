@@ -18,10 +18,11 @@
 				<script src="js/util.js"></script>
 				<script src="js/main.js"></script>
 				<script src="js/login.js"></script>
-				<script src="js/list.min.js"></script>  
-		</head>	
+				<script src="js/list.min.js"></script>
+</head>	
 	
 		<body>
+
 			<!-- Header -->
 			<header id="header">
 				<nav class="left">
@@ -45,4 +46,6 @@
 					<li><a href="login.php" class="button fit">Login</a></li>
 				</ul>
 			</nav>
+
+
 			

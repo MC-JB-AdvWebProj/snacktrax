@@ -1,9 +1,9 @@
 <?php
 // get database connection
-include_once '../api/db_connect.php';
+include_once 'db_connect.php';
  
 // instantiate user object
-include_once '../api/objects/user.php';
+include_once 'user.php';
  
 $database = new Database();
 $db = $database->getConnection();
@@ -11,9 +11,11 @@ $db = $database->getConnection();
 $user = new User($db);
  
 // set user property values
+$user->fname = $_POST['fname'];
+$user->lname = $_POST['lname'];
 $user->email = $_POST['email'];
 $user->password = $_POST['password'];
-$user->created = date('Y-m-d H:i:s');
+
  
 // create the user
 if($user->signup()){

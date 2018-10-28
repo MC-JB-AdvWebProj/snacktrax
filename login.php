@@ -1,9 +1,3 @@
-
-<?php
-    include_once 'db_connect.php'
-?>
-
-
 <?php
 include 'header.php';
 ?>
@@ -12,14 +6,13 @@ include 'header.php';
 include 'nav.php';
 ?>
 
+<?php
+include 'db_connect.php';
+?>
+
 <body>
 <!-- Form -->
 <h3>Login</h3>
-
-<?php
-include '../api/user/login.php';
-?>
-
 
 <form method="post" action="#">
     <div class="row uniform">
@@ -43,5 +36,10 @@ include '../api/user/login.php';
 <?php
 include 'footer.php';
 ?>
+
+<?php
+include 'user-login.php';
+?>
+
 </body>
 </html>

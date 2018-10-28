@@ -1,7 +1,7 @@
 <?php
 // include database and object files
-include_once '../api/db_connect.php';
-include_once '../api/objects/user.php';
+include_once 'db_connect.php';
+include_once 'user.php';
  
 // get database connection
 $database = new Database();
@@ -24,7 +24,7 @@ if($stmt->rowCount() > 0){
     $user_arr=array(
         "status" => true,
         "message" => "Successful Login!",
-        "email" => $row['eail']
+        "email" => $row['email']
     );
 }
 else{
