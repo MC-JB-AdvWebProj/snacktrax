@@ -10,7 +10,7 @@ include 'nav.php';
 $servername = "localhost";
 $database = "snack_trax";
 $username = "root";
-$password = "@L3sley2018!";
+$password = "root";
 
 // Create connection
 
@@ -25,6 +25,7 @@ if (!$conn) {
 $sql = "INSERT INTO tracking (name, date, time, food, amount) VALUES ('$_POST[name]','$_POST[date]','$_POST[time]','$_POST[food]','$_POST[amount]')";
 if (mysqli_query($conn, $sql)) {
     echo "<script>window.location = 'snack-tracking.php'</script>";
+    
 } else {
       echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

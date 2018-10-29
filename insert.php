@@ -10,7 +10,7 @@ include 'nav.php';
 $servername = "localhost";
 $database = "snack_trax";
 $username = "root";
-$password = "@L3sley2018!";
+$password = "root";
 
 // Create connection
 
